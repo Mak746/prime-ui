@@ -1,0 +1,147 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Version: 3.0.0
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Main Css File
+*/
+
+//Fonts
+@use '../../fonts/fonts';
+
+//Core files
+@use "bootstrap/scss/functions" as *;
+@use "bootstrap/scss/mixins" as *;     // 👈 must come before variables
+@use "bootstrap/scss/variables" as *;
+
+@use 'variables-customer' as *;
+@use 'variables-custom' as *;
+@use 'variables-dark' as *;
+
+
+// Structure
+@use '../../structure/topbar';
+@use '../../structure/page-head';
+@use '../../structure/footer';
+@use '../../structure/vertical';
+@use '../../structure/horizontal';
+@use '../../structure/two-column';
+@use '../../structure/layouts';
+
+// Components
+@use '../../components/waves';
+@use '../../components/avatar';
+@use '../../components/accordion';
+@use '../../components/helper';
+@use '../../components/preloader';
+@use '../../components/forms';
+@use '../../components/widgets';
+@use '../../components/demos';
+@use '../../components/print';
+@use '../../components/ribbons';
+@use '../../components/toast';
+@use '../../components/scrollspy';
+
+// Bootstrap components
+@use '../../components/root';
+@use '../../components/reboot';
+@use '../../components/alerts';
+@use '../../components/badge';
+@use '../../components/buttons';
+@use '../../components/breadcrumb';
+@use '../../components/card';
+@use '../../components/dropdown';
+@use '../../components/nav';
+@use '../../components/table';
+@use '../../components/modal';
+@use '../../components/pagination';
+@use '../../components/progress';
+@use '../../components/popover';
+@use '../../components/type';
+@use '../../components/form-check';
+@use '../../components/form-control';
+@use '../../components/list-group';
+
+// Plugins
+@use '../../plugins/custom-scrollbar';
+@use '../../plugins/prismjs';
+@use '../../plugins/sweetalert2';
+@use '../../plugins/dropzone';
+@use '../../plugins/range-slider';
+@use '../../plugins/sortablejs';
+@use '../../plugins/tour';
+@use '../../plugins/swiper';
+@use '../../plugins/multijs';
+@use '../../plugins/colorpicker';
+@use '../../plugins/filepond';
+@use '../../plugins/form-input-spin';
+@use '../../plugins/ckeditor';
+@use '../../plugins/quilljs';
+@use '../../plugins/gridjs';
+@use '../../plugins/listjs';
+@use '../../plugins/apexcharts';
+@use '../../plugins/chartjs';
+@use '../../plugins/echarts';
+@use '../../plugins/google-map';
+@use '../../plugins/autocomplete';
+@use '../../plugins/vector-maps';
+@use '../../plugins/leaflet-maps';
+@use '../../plugins/fullcalendar';
+@use '../../plugins/emoji-picker';
+@use '../../plugins/datatables';
+@use '../../plugins/select2';
+
+// Plugins
+@use '../../plugins/toastify';
+@use '../../plugins/choices';
+@use '../../plugins/flatpicker';
+@use '../../plugins/flag-input';
+@use '../../plugins/form-wizard';
+
+// Pages
+@use '../../pages/authentication';
+@use '../../pages/dashboard';
+@use '../../pages/timeline';
+@use '../../pages/gallery';
+@use '../../pages/errors';
+@use '../../pages/profile';
+@use '../../pages/sitemap';
+@use '../../pages/team';
+@use '../../pages/coming-soon';
+@use '../../pages/search-results';
+@use '../../pages/ecommerce';
+@use '../../pages/invoice';
+@use '../../pages/chat';
+@use '../../pages/email';
+@use '../../pages/kanban';
+@use '../../pages/landing';
+@use '../../pages/nft-landing';
+@use '../../pages/file-manager';
+@use '../../pages/to-do';
+@use '../../pages/jobs';
+@use '../../pages/job-landing';
+
+@use './angular-custom.scss';
+
+// RTL Set
+// @use "../../rtl/components-rtl";
+// @use "../../rtl/layouts-rtl";
+// @use "../../rtl/pages-rtl";
+// @use "../../rtl/plugins-rtl";
+
+// //////////////////
+// .bgg {
+//   background: url(../../../images/img/bg-domain.png) center center no-repeat;
+//   background-size: contain;
+// }
+.hero-bg {
+  background-image: url(../../../images/bg/image-5.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

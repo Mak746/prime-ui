@@ -1,0 +1,41 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/auth": "<rootDir>/../libs/auth/src",
+    "@app/auth/(.*)": "<rootDir>/../libs/auth/src/$1",
+    "@app/config": "<rootDir>/../libs/config/src",
+    "@app/config/(.*)": "<rootDir>/../libs/config/src/$1",
+    "@app/db": "<rootDir>/../libs/db/src",
+    "@app/db/(.*)": "<rootDir>/../libs/db/src/$1",
+    "@app/global-config": "<rootDir>/../libs/global-config/src",
+    "@app/global-config/(.*)": "<rootDir>/../libs/global-config/src/$1",
+    "@app/shared": "<rootDir>/../libs/shared/src",
+    "@app/shared/(.*)": "<rootDir>/../libs/shared/src/$1",
+    "y/config": "<rootDir>/../libs/config/src",
+    "y/config/(.*)": "<rootDir>/../libs/config/src/$1",
+    "y/global-config": "<rootDir>/../libs/global-config/src",
+    "y/global-config/(.*)": "<rootDir>/../libs/global-config/src/$1",
+    "y/logger": "<rootDir>/../libs/logger/src",
+    "y/logger/(.*)": "<rootDir>/../libs/logger/src/$1",
+    "y/notification": "<rootDir>/../libs/notification/src",
+    "y/notification/(.*)": "<rootDir>/../libs/notification/src/$1",
+    "y/resources": "<rootDir>/../libs/resources/src",
+    "y/resources/(.*)": "<rootDir>/../libs/resources/src/$1",
+    "y/typeorm": "<rootDir>/../libs/typeorm/src",
+    "y/typeorm/(.*)": "<rootDir>/../libs/typeorm/src/$1",
+    "y/user": "<rootDir>/../libs/user/src",
+    "y/user/(.*)": "<rootDir>/../libs/user/src/$1",
+    "@app/redis/(.*)": "<rootDir>/../libs/redis/src/$1",
+    "@app/redis": "<rootDir>/../libs/redis/src"
+  }
+}

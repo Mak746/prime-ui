@@ -1,0 +1,88 @@
+<div appScrollspy [spiedTags]="['SECTION']" (sectionChange)="onSectionChange($event)">
+  <div class="layout-wrapper landing">
+    <!-- start hero section -->
+    <section class="section pb-0 hero-section" id="hero">
+      <div class="bg-overlay bg-overlay-pattern"></div>
+      <div class="container">
+        <div class="row justify-content-between align-items-center py-5">
+          <div class="col-lg-7">
+            <div>
+              <h1 class="display-6 fw-semibold text-capitalize mb-3 lh-base">Better Doctors. Better Care.</h1>
+              <p class="lead text-muted lh-base mb-4">
+                Waiting is a thing of the past. Book ahead for prompt attention! Online consultation, in person appointment, instant Consultation, we got you all covered!
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+          <div class="col-lg-4">
+            <div class="position-relative home-img text-center mt-5 mt-lg-0">
+              <img src="assets/images/landing-hero-doctor.png" alt="" class="user-img overflow-hidden img-fluid" />
+
+              <div class="circle-effect">
+                <div class="circle"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- search -->
+        <div class="py-5">
+          <form action="#" class="job-panel-filter" style="">
+            <div class="row justify-content-around g-md-0 g-2 gap-2">
+              <div class="col-md-6">
+                <div>
+                  <input type="search" id="job-title" class="form-control filter-input-box" placeholder="Search Physician By Name, Clinic, Hospital or Speciality" />
+                </div>
+              </div>
+              <!--end col-->
+              <div class="col-md-3">
+                <div>
+                  <select class="form-control" data-choices>
+                    <option value="">Area Location</option>
+                    <option value="Full Time">Full Time</option>
+                    <option value="Part Time">Part Time</option>
+                    <option value="Freelance">Freelance</option>
+                    <option value="Internship">Internship</option>
+                  </select>
+                </div>
+              </div>
+              <!--end col-->
+              <div class="col-md-2">
+                <div class="h-100">
+                  <button class="btn btn-primary submit-btn w-100 h-100" type="submit"><i class="ri-search-2-line align-bottom me-1"></i> Search</button>
+                </div>
+              </div>
+              <!--end col-->
+            </div>
+            <!--end row-->
+          </form>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end hero section -->
+
+   
+  
+    <app-how-it-works> </app-how-it-works>
+       <app-patient-advantage></app-patient-advantage>
+    <app-doctors-advantage></app-doctors-advantage>
+     <app-wecare-apps-banner></app-wecare-apps-banner>
+        <!-- <app-articles></app-articles> -->
+    <!-- <app-questions></app-questions> -->
+       <!--<app-popular-doctors></app-popular-doctors>
+ 
+
+    <app-testimonials></app-testimonials>
+    <app-wecare-apps-banner></app-wecare-apps-banner> -->
+
+    <!--start back-to-top-->
+    <button (click)="topFunction()" class="btn btn-danger btn-icon landing-back-top" id="back-to-top">
+      <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->
+  </div>
+</div>

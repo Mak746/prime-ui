@@ -1,0 +1,658 @@
+{
+  "HEADER": {
+    "MORE": {
+      "TEXT": "More"
+    }
+  },
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENU"
+    },
+    "PATIENTDETAIL": {
+      "TEXT": "Patient Detail"
+    },
+    "SETTINGS": {
+      "TEXT": "Settings"
+    },
+    "BOOKING": {
+      "TEXT": "Booking"
+    },
+    "DEPENDANT": {
+      "TEXT": "Dependant"
+    },
+    "PAGE": {
+      "TEXT": "Page"
+    },
+    "PERMISSIONREQUEST": {
+      "TEXT": "Permission Request"
+    },
+    "MANAGETRANSACTION": {
+      "TEXT": "Manage Transaction"
+    },
+    "PROFESSIONALINFO": {
+      "TEXT": "Professional Info"
+    },
+    "REVIEWS": {
+      "TEXT": "Reviews"
+    },
+    "BOOKINGSLOT": {
+      "TEXT": "Booking Slots"
+    },
+    "PRESCRIPTIONS": {
+      "TEXT": "Prescriptions"
+    },
+    "MYAPPOINTMENT": {
+      "TEXT": "My Appointments"
+    },
+    "APPOINTMENT": {
+      "TEXT": "Booking Appointments"
+    },
+    "MYBLOG": {
+      "TEXT": "My Blog"
+    },
+"BLOGS": {
+      "TEXT": "Blogs"
+    },
+    "QACONSULT": {
+      "TEXT": "Q&A Consult"
+    },
+    "REPORTS": {
+      "TEXT": "Reports",
+      "LIST": {
+            "DAILYREPORT": "Daily Report",
+        "MONTHLYREPORT": "Monthly Report"
+      }
+    },
+    "MANAGEPATIENTS": {
+      "TEXT": "My Patients",
+      "LIST": {
+        "PATIENTLIST": "Patients List",
+        "DEPENDANTS": "Dependants",
+        "PATIENTPERMISSION": "Patient Permission",
+        "PATIENTSREVIEW": "Patients Review",
+
+        "PATIENTNOTES": "Patient Notes"
+}
+    },
+    "MANAGEINSTITUTIONS": {
+      "TEXT": "Manage Institutions",
+      "LIST": {
+        "INSTITUTIONLIST": "Institutions List",
+        "INSTITUTIONCATEGORY": "Institution Categories",
+        "INSTITUTIONUSERS": "Institution Users"
+      }
+    },
+    "MANAGEPROFESSIONALS": {
+      "TEXT": "Manage Professionals",
+      "LIST": {
+        "PROFESSIONALSLIST": "Professional Users List",
+        "PROFESSIONALSTYPE": "Professionals Type"
+      }
+    },
+    "MANAGEPATIENTSADMIN": {
+      "TEXT": "Mange Patients",
+      "LIST": {
+        "PATIENTSLIST": "Patients List",
+        "DEPENDANTSLIST": "Dependants List",
+        "CARDTRANSACTIONS": "Card Transactions",
+        "SETTLMENTTRANSACTIONS": "Settlment Transactions"
+      }
+    },
+    "MANAGEBOOKINGS": {
+      "TEXT": "Manage Bookings",
+      "LIST": {
+        "APPOINTMENTS": "Appointments",
+        "SLOTS": "Booking Slots",
+        "CANCELLATIONREASONS": "Cancellation Reasons",
+        "BOOKINGCANCELLATIONREASONS": "Booking Cancellation Reasons",
+        "BOOKINGTRANSACTIONS": "Booking Transactions",
+        "WALLETTRANSACTIONS": "Wallet Transactions"
+      }
+    },
+    "MANAGEPOSTS": {
+      "TEXT": "Manage Posts",
+      "LIST": {
+        "POSTLIST": "Posts",
+        "POSTCATEGORY": "Post Categories",
+        "POSTMETA": "Post Meta"
+      }
+    },
+    "MANAGELOOKUPS": {
+      "TEXT": "Manage Look Ups",
+      "LIST": {
+        "BANKS": "Banks",
+        "CITIES": "Cities",
+        "STATES": "States",
+        "COUNTRIES": "Countries",
+        "LOGS": "Activity Logs",
+        "GLOBALCONFIG": "Global Configs",
+        "SPECIALIZATION": "Specializations"
+      }
+    },
+    "MANAGEFAQS": {
+      "TEXT": "Manage Faqs",
+      "LIST": {
+        "FAQS": "Faqs",
+        "FAQSCATEGORIES": "Faqs Categories"
+      }
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboards",
+      "BADGE": "New",
+      "LIST": {
+        "ANALYTICS": "Analytics",
+        "CRM": "CRM",
+        "ECOMMERCE": "Ecommerce",
+        "CRYPTO": "Crypto",
+        "PROJECTS": "Projects",
+        "NFT": "NFT",
+        "JOB": "Job"
+      }
+    },
+    "TRANSACTIONS": {
+      "TEXT": "Transactions",
+      "LIST": {
+        "CONSULTATIONTRANSACTION": "Booking Transaction",
+        "WALLETTRANSACTIONS": "Wallet Transactions",
+        "SETTLMENTTRANSACTIONS": "Settlment Transactions",
+        "CARDTRANSACTIONS": "Card Transaction",
+        "SETTLMENTACCOUNT": "Settlment Account"
+      }
+    },
+    "BOOKINGAPPOINTMENT": {
+      "TEXT": "Online Consultation",
+      "BADGE": "New"
+    },
+    "OFFLINEAPPOINTMENT": {
+      "TEXT": "In Person Appointment",
+      "BADGE": "New"
+    },
+    "USERMANAGER": {
+      "TEXT": "User Manager",
+      "BADGE": "New",
+      "LIST": {
+        "COMPANYUSERS": "Company Users",
+        "SOCIALPROMOTERS": "Social Promoters",
+        "STATIONOPERATORS": "Station Operators",
+        "CUSTOMERS": {
+          "TEXT": "Customers",
+          "LIST": {
+            "AGENTS": "Agents",
+            "MERCHANTS": "Merchants",
+            "SALES": "Sales",
+            "SUBAGENTS": "Sub-Agents",
+            "RETAILERS": "Retailers",
+            "ENDUSERS": "End Users"
+          }
+        },
+        "DRIVERSOWNERS": {
+          "TEXT": "Drivers / Owners",
+          "LIST": {
+            "DRIVERS": "Drivers",
+            "OWNERS": "Owners"
+          }
+        },
+        "FUELTRANSPORTUSERS": {
+          "TEXT": "Fuel Transports",
+          "LIST": {
+            "TRANSPORTERADMINS": "Transporter Admins",
+            "TRANSPORTEROPERATORS": "Transporter Operators"
+          }
+        },
+        "TRANSPORTSERVICEUSERS": {
+          "TEXT": "Service Providers",
+          "LIST": {
+            "GARAGEOWNERS": "Garage Owners",
+            "VEHICLETECHNICIANS": "Vehicle Technicians",
+            "SPAREPARTSHOPOWNERS": "Sparepart Shop Owners",
+            "CARWASHOWNERS": "Car wash Owners"
+          }
+        }
+      }
+    },
+    "CASHWALLET": {
+      "TEXT": "Cash Wallet",
+      "LIST": {
+        "TRANSACTIONS": "Transactions",
+        "WALLETLOGS": "Transaction Logs",
+        "TRANSACTIONAUDITS": "Wallet Audits",
+        "AUDITSUMMARIES": "Audit Summaries"
+      }
+    },
+    "AIRTIMEWALLET": {
+      "TEXT": "Airtime Wallet",
+      "LIST": {
+        "TRANSACTIONS": "Transactions",
+        "CONVERSIONAUDITS": "Conversion Audits",
+        "AUDITLOGS": "Audit Logs"
+      }
+    },
+    "AIRTIMETOPUP": {
+      "TEXT": "Airtime Topup",
+      "LIST": {
+        "TRANSACTIONS": "Transactions",
+        "AUDITLOGS": "Audit Logs"
+      }
+    },
+    "PAYMENTS": {
+      "TEXT": "Payments",
+      "LIST": {
+        "COMPANYACCOUNTS": "Company Accounts",
+        "CARDPAYMENTS": "Card Payments",
+        "BANKWIRES": "Bank Wires",
+        "PAYPAL": "Paypal",
+        "STRIPE": "Stripe"
+      }
+    },
+    "OPERATORS": {
+      "TEXT": "Operators"
+    },
+    "EOBUPLOADS": {
+      "TEXT": "EoB Uploads"
+    },
+    "REFERRAL": {
+      "TEXT": "Referrals",
+      "LIST": {
+        "PROMOTERSPROFILES": "Promoter Profiles",
+        "REFERRALTRANSACTIONS": "Referral Transactions",
+        "COMMISSIONPAYOUTS": "Commission Payouts"
+      }
+    },
+    "PRODUCTS": {
+      "TEXT": "Products",
+      "LIST": {
+        "PRODUCTITEMS": "Product Items",
+        "PRODUCTPLANS": "Product Plans",
+        "TRANSACTIONS": "Transactions",
+        "ORDERS": "Orders",
+        "STOCKTRANSACTIONS": "Stock Transactions"
+      }
+    },
+    "MEDICALHISTORY": {
+      "TEXT": "Medical History",
+      "LIST": {
+        "ALLERGY": "Allergies",
+        "MEDICATIONS": "Medications",
+        "MEDICALCONDITIONS": "Medical Conditions",
+        "SURGERY": "Surgeries",
+        "FAMILYHISTORY": "Familly History",
+        "IMMUNIZATIONS": "Immunizations",
+        "INJURY": "Injuries",
+        "VITALSIGNS": "Vital Signs"
+      }
+    },
+    "LABORATORY": {
+      "TEXT": "Laboratory",
+      "LIST": {
+        "LABTESTS": "Lab Tests",
+        "LABRESULTS": "Lab Results"
+      }
+    },
+    "MEDICALRECORDS": {
+      "TEXT": "Medical Records",
+      "LIST": {
+        "PRESCRIPTIONS": "Prescriptions",
+        "NOTES": "Notes",
+        "FILES": "Files",
+        "IMAGES": "Images",
+        "VIDEOS": "Videos",
+        "AUDIOS": "Audios"
+      }
+    },
+    "FAVORITES": {
+      "TEXT": "Favorites",
+      "LIST": {
+        "DOCTORS": "Doctors",
+        "HOSPITALS": "Hospitals",
+        "CLINICS": "Clinics",
+        "PHARMACIES": "Pharmacies",
+        "LABORATORIES": "Laboratories"
+      }
+    },
+    "NOTIFICATION": {
+      "TEXT": "Notifications"
+    },
+    "NOTIFICATIONS": {
+      "TEXT": "Notifications",
+      "LIST": {
+        "APPOINTMENTS": "Appointments",
+        "REMINDERS": "Reminders",
+        "PROMOTIONS": "Promotions"
+      }
+    },
+    "DISCUSSIONS": {
+      "TEXT": "Discussions",
+      "LIST": {
+        "MYQUESTIONS": "My Questions",
+        "QUESTIONS": "Questions",
+        "MYANSWERS": "My Answers",
+        "TOPICS": "Topics",
+        "POST": "Blog"
+      }
+    },
+    "CHAT": {
+      "TEXT": "Chat"
+    },
+    "MYPROFILE": {
+      "TEXT": "My Profile"
+    },
+    "WEBHOOK": {
+      "TEXT": "Webhook Notifications"
+    },
+    "ACTIVITYLOGS": {
+      "TEXT": "Activity Logs"
+    },
+
+    "APPS": {
+      "TEXT": "Apps",
+      "LIST": {
+        "BANKWIRETRANSFER": {
+          "TEXT": "Bank Wire Transfer",
+          "LIST": {
+            "BANKOPTIONS": "Bank Options",
+            "PAYMENTPROOFS": "Payment Proofs"
+          }
+        },
+        "PRODUCTPURCHASE": {
+          "TEXT": "Product Purchase",
+          "LIST": {
+            "AIRTIMETOPUPS": "Airtime Topups"
+          }
+        },
+        "PRODUCTPRICING": {
+          "TEXT": "Product Pricing",
+          "LIST": {
+            "AIRTIMETOPUPS": "Airtime Topups"
+          }
+        },
+        "WALLETTRANSACTIONS": {
+          "TEXT": "Wallet Transactions",
+          "LIST": {
+            "AIRTIMETOPUPS": "Airtime Topups"
+          }
+        },
+        "PRODUCTTRANSACTIONS": {
+          "TEXT": "Product Transactions",
+          "LIST": {
+            "AIRTIMETOPUPS": "Airtime Topups"
+          }
+        },
+        "APIACCESS": {
+          "TEXT": "API Accesses",
+          "LIST": {
+            "AIRTIMETOPUPS": "Airtime Topups"
+          }
+        },
+        "CHANNELPROFILES": "Channel Profiles",
+        "REFERRALTRANSACTIONS": "Referral Transactions",
+        "COMMISSIONPAYOUTS": "Commission Payouts",
+        "CONTACTBOOK": "Contact Book",
+        "FUELPRODUCTS": "Fuel Products",
+        "TRANSPORTERS": "Transporters",
+        "FUELSTATIONS": "Fuel Stations",
+        "PUMPDAILYTRANSACTIONS": "Pump Daily Transactions",
+        "FUELPURCHASETRANSACTIONS": "Fuel Purchase Txn",
+        "FUELSALESTRANSACTIONS": "Fuel Sales Txn",
+        "FUELTANKERS1": "Fuel Tankers",
+        "FUELDISPENSERS": "Fuel Dispensers",
+        "FUELPUMPS1": "Fuel Pumps",
+        "TANKERSTOCKS": "Tanker Stocks",
+
+        "CALENDAR": "Calendar",
+        "CHAT": "Chat",
+        "EMAIL": "Email",
+        "MAILBOX": "Mailbox",
+        "MAILTEMPLATES": "Email Templates",
+        "BASICACTION": "Basic Action",
+        "ECOMMERCEACTION": "Ecommerce Action",
+        "ECOMMERCE": "Ecommerce",
+        "PRODUCTS": "Products",
+        "PRODUCTDETAILS": "Product Details",
+        "CREATEPRODUCT": "Create Product",
+        "ORDERS": "Orders",
+        "ORDERDETAILS": "Order Details",
+        "CUSTOMERS": "Customers",
+        "SHOPPINGCART": "Shopping Cart",
+        "CHECKOUT": "Checkout",
+        "SELLERS": "Sellers",
+        "SELLERDETAILS": "Seller Details",
+        "PROJECTS": "Projects",
+        "LIST": "List",
+        "OVERVIEW": "Overview",
+        "CREATEPROJECT": "Create Project",
+        "TASK": "Tasks",
+        "KANBANBOARD": "Kanban Board",
+        "LISTVIEW": "List View",
+        "TASKDETAILS": "Task Details",
+        "CRM": "CRM",
+        "CONTACTS": "Contacts",
+        "COMPANIES": "Companies",
+        "DEALS": "Deals",
+        "LEADS": "Leads",
+        "CRYPTO": "Crypto",
+        "TRANSACTIONS": "Transactions",
+        "BUY&SELL": "Buy & Sell",
+        "MYWALLET": "My Wallet",
+        "ICOLIST": "ICO List",
+        "KYCAPPLICATION": "KYC Application",
+        "INVOICES": "Invoices",
+        "DETAILS": "Details",
+        "CREATEINVOICE": "Create Invoice",
+        "SUPPORTTICKETS": "Support Tickets",
+        "TICKETDETAILS": "Ticket Details",
+        "NFTMARKETPLACE": "NFT Marketplace",
+        "MARKETPLACE": "Marketplace",
+        "EXPLORENOW": "Explore Now",
+        "LIVEAUCTION": "Live Auction",
+        "ITEMDETAILS": "Item Details",
+        "COLLECTIONS": "Collections",
+        "CREATORS": "Creators",
+        "RANKING": "Ranking",
+        "WALLETCONNECT": "Wallet Connect",
+        "CREATENFT": "Create NFT",
+        "FILEMANAGER": "File Manager",
+        "TODO": "To Do",
+        "JOBS": "Jobs",
+        "STATISTICS": "Statistics",
+        "JOBLISTS": "Job Lists",
+        "GRID": "Grid",
+        "CANDIDATELISTS": "Candidate Lists",
+        "GRIDVIEW": "Grid View",
+        "APPLICATION": "Application",
+        "NEWJOB": "New Job",
+        "COMPANIESLIST": "Companies List",
+        "JOBCATEGORIES": "Job Categories",
+        "APIKEY": "API Key"
+      }
+    },
+    "LAYOUTS": {
+      "TEXT": "Layouts",
+      "LIST": {
+        "HORIZONTAL": "Horizontal",
+        "DETACHED": "Detached",
+        "TWOCOLUMN": "Two Column",
+        "HOVERED": "Hovered"
+      }
+    },
+
+    "AUTHENTICATION": {
+      "TEXT": "Authentication",
+      "LIST": {
+        "BASIC": "Basic",
+        "COVER": "Cover",
+        "SIGNIN": "Sign In",
+        "SIGNUP": "Sign Up",
+        "PASSWORDRESET": "Password Reset",
+        "PASSWORDCREATE": "Password Create",
+        "LOCKSCREEN": "Lock Screen",
+        "LOGOUT": "Logout",
+        "SUCCESSMESSAGE": "Success Message",
+        "TWOSTEPVERIFICATION": "Two Step Verification",
+        "ERRORS": "Errors",
+        "404BASIC": "404 Basic",
+        "404COVER": "404 Cover",
+        "404ALT": "404 Alt",
+        "500": "500",
+        "OFFLINE": "Offline Page"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pages",
+      "LIST": {
+        "STARTER": "Starter",
+        "PROFILE": "Profile",
+        "SIMPLEPAGE": "Simple Page",
+        "SETTINGS": "Settings",
+        "TEAM": "Team",
+        "TIMELINE": "Timeline",
+        "FAQS": "FAQs",
+        "PRICING": "Pricing",
+        "GALLERY": "Gallery",
+        "MAINTENANCE": "Maintenance",
+        "COMINGSOON": "Coming Soon",
+        "SITEMAP": "Sitemap",
+        "SEARCHRESULTS": "Search Results",
+        "PRIVACYPOLICY": "Privacy Policy",
+        "TERMS&CONDITIONS": "Term & Conditions"
+      }
+    },
+    "LANDING": {
+      "TEXT": "Landing",
+      "LIST": {
+        "ONEPAGE": "One Page",
+        "NFTLANDING": "NFT Landing",
+        "JOB": "Job"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Components"
+    },
+    "BASEUI": {
+      "TEXT": "Base UI",
+      "LIST": {
+        "ALERTS": "Alerts",
+        "BADGES": "Badges",
+        "BUTTONS": "Buttons",
+        "COLORS": "Colors",
+        "CARDS": "Cards",
+        "CAROUSEL": "Carousel",
+        "DROPDOWNS": "Dropdowns",
+        "GRID": "Grid",
+        "IMAGES": "Images",
+        "TABS": "Tabs",
+        "ACCORDION&COLLAPSE": "Accordion & Collapse",
+        "MODALS": "Modals",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Placeholders",
+        "PROGRESS": "Progress",
+        "NOTIFICATIONS": "Notifications",
+        "MEDIAOBJECT": "Media object",
+        "EMBEDVIDEO": "Embed Video",
+        "TYPOGRAPHY": "Typography",
+        "LISTS": "Lists",
+        "GENERAL": "General",
+        "RIBBONS": "Ribbons",
+        "UTILITIES": "Utilities"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Advance UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Nestable List",
+        "SCROLLBAR": "Scrollbar",
+        "ANIMATION": "Animation",
+        "TOUR": "Tour",
+        "SWIPERSLIDER": "Swiper Slider",
+        "RATTINGS": "Ratings",
+        "HIGHLIGHT": "Highlight",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Forms",
+      "LIST": {
+        "BASICELEMENTS": "Basic Elements",
+        "FORMSELECT": "Form Select",
+        "CHECKBOXS&RADIOS": "Checkboxs & Radios",
+        "PICKERS": "Pickers",
+        "INPUTMASKS": "Input Masks",
+        "ADVANCED": "Advanced",
+        "RANGESLIDER": "Range Slider",
+        "VALIDATION": "Validation",
+        "WIZARD": "Wizard",
+        "EDITORS": "Editors",
+        "FILEUPLOADS": "File Uploads",
+        "FORMLAYOUTS": "Form Layouts"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tables",
+      "LIST": {
+        "BASICTABLES": "Basic Tables",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Charts",
+      "LIST": {
+        "APEXCHARTS": "Apexcharts",
+        "LINE": "Line",
+        "AREA": "Area",
+        "COLUMN": "Column",
+        "BAR": "Bar",
+        "MIXED": "Mixed",
+        "TIMELINE": "Timeline",
+        "CANDLSTICK": "Candlstick",
+        "BOXPLOT": "Boxplot",
+        "BUBBLE": "Bubble",
+        "SCATTER": "Scatter",
+        "HEATMAP": "Heatmap",
+        "TREEMAP": "Treemap",
+        "PIE": "Pie",
+        "RADIALBAR": "Radialbar",
+        "RADAR": "Radar",
+        "POLARAREA": "Polar Area",
+        "CHARTJS": "Chartjs",
+        "ECHARTS": "Echarts"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icons",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOXICONS": "Boxicons",
+        "MATERIALDESIGN": "Material Design",
+        "LINEAWESOME": "Line Awesome",
+        "FEATHER": "Feather",
+        "CRYPTOSVG": "Crypto SVG"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Maps",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vector",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multi Level",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Level 1.1",
+          "2": "Level 1.2",
+          "LEVEL2": {
+            "1": "Level 2.1",
+            "2": "Level 2.2"
+          }
+        }
+      }
+    }
+  }
+}

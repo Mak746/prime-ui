@@ -1,0 +1,42 @@
+// /* Custom styles for ngb-carousel navigation arrows */
+// .carousel-control-prev-icon,
+// .carousel-control-next-icon {
+//   background-color: #ff0000; /* Change the background color of the arrows */
+// }
+
+// .carousel-control-prev-icon::before,
+// .carousel-control-next-icon::before {
+//   color: #ffffff; /* Change the color of the arrow icons */
+// }
+
+// *************************************** //
+/* Custom styles for ngb-carousel navigation arrows */
+/* Custom styles for ngb-carousel navigation arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black !important; /* Set the background color to black */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: gray !important; /* Set the color of the arrow icons to black */
+}
+
+/* Custom styles for ngb-carousel navigation arrows */
+// .carousel-control-prev-icon {
+//   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M7.8 4.4L4.8 1.4a.5.5 0 00-.8.4v1.5L1.4 2.2a.5.5 0 00-.8.4v2.8c0 .3.2.5.4.5h6.2c.2 0 .4-.2.4-.4V4.8a.5.5 0 00-.2-.4z'/%3e%3c/svg%3e") !important;
+// }
+
+// .carousel-control-next-icon {
+//   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M7.6 3.6L4.6.6a.5.5 0 00-.8.4v1.5L1.2 1.3a.5.5 0 00-.8.4v2.8c0 .3.2.5.4.5h6.2c.2 0 .4-.2.4-.4V4.2a.5.5 0 00-.2-.4z'/%3e%3c/svg%3e") !important;
+// }
+
+/* Custom styles for ngb-carousel navigation arrows */
+// .carousel-control-prev-icon {
+//     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3e%3cpath d='M7.8 4.4L4.8 1.4a.5.5 0 00-.8.4v1.5L1.4 2.2a.5.5 0 00-.8.4v2.8c0 .3.2.5.4.5h6.2c.2 0 .4-.2.4-.4V4.8a.5.5 0 00-.2-.4z'/%3e%3c/svg%3e") !important;
+// //   background-image: url('../../../../../../assets/images/female-doctor.png') !important;
+// }
+
+// .carousel-control-next-icon {
+//   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3e%3cpath d='M7.6 3.6L4.6.6a.5.5 0 00-.8.4v1.5L1.2 1.3a.5.5 0 00-.8.4v2.8c0 .3.2.5.4.5h6.2c.2 0 .4-.2.4-.4V4.2a.5.5 0 00-.2-.4z'/%3e%3c/svg%3e") !important;
+// }

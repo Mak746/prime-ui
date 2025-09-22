@@ -1,0 +1,49 @@
+<section class="section" id="reviews">
+  <div class="bg-overlay bg-overlay-pattern"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="text-center">
+          <h4 class="mb-5"><span class="text-success">Testimonials</span> from Our Community</h4>
+
+          <ngb-carousel
+            #carousel
+            [showNavigationIndicators]="showNavigationIndicators"
+            [interval]="2000"
+            [pauseOnHover]="pauseOnHover"
+            [pauseOnFocus]="pauseOnFocus"
+            (slide)="onSlide($event)"
+          >
+            @for (data of testimonials; track data; let i = $index) {
+            <ng-template ngbSlide>
+              <div class="row justify-content-center g-0 pb-lg-4">
+                <div class="col-10">
+                  <div>
+                    <p class="ff-secondary mb-4 px-5">
+                      " I am giving 5 stars. Theme is great and everyone one stuff everything in theme. Future request should not affect current state of theme. "
+                    </p>
+
+                    <div class="d-flex justify-content-center">
+                      <div class="d-flex align-items-center text-start" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="contactInitiated1">
+                        <div class="flex-shrink-0">
+                          <img src="assets/images/users/avatar-5.jpg" alt="" class="avatar-sm rounded-circle" />
+                        </div>
+
+                        <div class="flex-grow-1 ms-3">
+                          <div class="d-flex justify-content-between">
+                            <h6 class="fs-13 mb-1">{{ data.name }}</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            }
+          </ngb-carousel>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

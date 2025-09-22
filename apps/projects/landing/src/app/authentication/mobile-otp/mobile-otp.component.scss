@@ -1,0 +1,16 @@
+.login-content-info{
+  padding-top: 60px !important;
+}
+input {
+    &.is-valid {
+      border: 2px solid green;
+    }
+  
+    &.is-invalid {
+      border: 2px solid red;
+  
+      &::after {
+        display: none;
+      }
+    }
+  }

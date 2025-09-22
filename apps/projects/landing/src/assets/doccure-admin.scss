@@ -1,0 +1,20 @@
+@import '../../../../node_modules/slick-carousel/slick/slick.css';
+@import '../../../../node_modules/slick-carousel/slick/slick-theme.css';
+
+@import 'icons/fontawesome/css/fontawesome.min.css';
+@import 'icons/fontawesome/css/all.min.css';
+@import 'admin/css/feathericon.min.css';
+@import 'icons/feather/css/iconfont.css';
+
+@import '../../../../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
+@import '../../../../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '../../../../node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../../../node_modules/aos/dist/aos.css';
+@import '../../../../node_modules/@ng-select/ng-select/themes/default.theme.css';
+
+@import 'styles';
+
+// admin theme overrides
+
+@import 'admin/scss/main.scss';
