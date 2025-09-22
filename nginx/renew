@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#------------------------------------------------------------------------------------------------
+# LetsEncrypt Https / SSL certificate renewal script.
+# This script will execute SSL renewal and reload nginx
+# once the renewal process is completed.
+# Execution of the script will be carried out using cron
+# More at: https://chuckmcandrew.com/post/2018/08/06/using-lets-encrypt-to-secure-local-services/
+#------------------------------------------------------------------------------------------------
+
+python3 -c 'import random; import time; time.sleep(random.random() * 3600)' && \
+  certbot renew --webroot --webroot-path /var/lib/certbot/ --post-hook "/usr/sbin/nginx -s reload"

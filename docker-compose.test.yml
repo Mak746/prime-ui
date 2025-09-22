@@ -1,0 +1,139 @@
+
+services:
+  wecare-api:
+    image: wecare-api:1.0.0
+    build:
+      context: ./backend/
+      target: api
+    restart: unless-stopped
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /home/wecare-api-logs:/usr/src/app/logs
+      - images:/usr/src/app/images:rw
+    env_file:
+      - backend/env/test.env
+    networks:
+      - wecare-front-end-net
+      - wecare-db-net
+      - wecare-redis-net
+    depends_on:
+      - wecare-db
+      - wecare-redis
+      - wecare-worker
+
+  wecare-chat:
+    image: wecare-chat:1.0.0
+    build:
+      context: ./backend/
+      target: chat
+    restart: unless-stopped
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /home/wecare-api-logs:/usr/src/app/logs
+      - images:/usr/src/app/images:rw
+    env_file:
+      - backend/env/test.env
+    networks:
+      - wecare-front-end-net
+      - wecare-db-net
+      - wecare-redis-net
+    depends_on:
+      - wecare-db
+      - wecare-redis
+      - wecare-worker
+
+  wecare-worker:
+    image: wecare-worker:1.0.0
+    container_name: wecare-worker
+    build:
+      context: ./backend/
+      target: worker
+    restart: unless-stopped
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - images:/usr/src/app/images:ro
+    env_file:
+      - backend/env/test.env
+    networks:
+      - wecare-front-end-net
+      - wecare-db-net
+      - wecare-redis-net
+    depends_on:
+      - wecare-db
+      - wecare-redis
+
+  wecare-db:
+    container_name: wecare-db
+    image: mariadb:11.0.2
+    volumes:
+      - ./DATA/db_data:/var/lib/mysql
+    restart: unless-stopped
+    environment:
+      MARIADB_USER: ${DB_USERNAME}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+      MARIADB_DATABASE: ${DB_NAME}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      PUID: 1000
+      PGID: 1000
+      TZ: ${TZ}
+    env_file:
+      - ./backend/env/test.env
+    networks:
+      - wecare-db-net
+
+  wecare-nginx:
+    container_name: wecare-nginx
+    image: wecare-nginx:1.0.0
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile.test
+    restart: on-failure:5
+    env_file:
+      - ./backend/env/test.env
+    depends_on:
+      - wecare-api
+      - wecare-chat
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - wecare-letsencrypt:/etc/letsencrypt
+      - images:/usr/share/nginx/html/images:ro
+    networks:
+      - wecare-front-end-net
+
+  adminer:
+    container_name: adminer
+    image: adminer:4.8.1
+    restart: unless-stopped
+    networks:
+      - wecare-db-net
+      - wecare-front-end-net
+
+  wecare-redis:
+    image: redis:7.0.5
+    container_name: wecare-redis
+    hostname: redis
+    restart: unless-stopped
+    sysctls:
+      net.core.somaxconn: "4096"
+    command:
+      - /bin/sh
+      - -c
+      - redis-server --bind wecare-redis --requirepass "${REDIS_PASSWORD}" --maxmemory 256mb --maxmemory-policy allkeys-lru --appendonly yes
+    environment:
+      REDIS_HOST: wecare-redis
+    env_file:
+      - ./backend/env/test.env
+    ports:
+      - ${REDIS_PORT}:6379
+    networks:
+      - wecare-redis-net
+
+networks:
+  wecare-db-net:
+  wecare-front-end-net:
+  wecare-redis-net:
+volumes:
+  wecare-letsencrypt:
+  images:

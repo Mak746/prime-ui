@@ -1,0 +1,34 @@
+# ---------------------------------------
+# Development
+# ---------------------------------------
+FROM nginx:1.25.1-alpine
+
+# Set Node env as development
+ENV NODE_ENV development
+
+# Set Appropriate Timezone
+ENV TZ Africa/Addis_Ababa
+
+# Define build arguments
+ARG UID
+ARG GID
+
+# Define user and group environment variables
+ENV UID=$UID
+ENV GID=$GID
+
+# User and group id fallback
+ENV UID=${UID:-1001}
+ENV GID=${GID:-1001}
+
+# Copy entrypoint
+COPY ./nginx/entrypoint.sh /entrypoint.sh
+
+# Make entrypoint executable
+RUN chmod +x /entrypoint.sh
+
+# Copy nginx config development template
+COPY ./nginx/nginx.conf.dev.template  /etc/nginx/nginx.conf.dev.template
+
+# Indicate Entry point script
+ENTRYPOINT [ "../entrypoint.sh" ]
